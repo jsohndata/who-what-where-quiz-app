@@ -5,7 +5,9 @@ export default function Card({ data, quizId, quizLength, handleAnswer }) {
   return(
     <div className="quiz-card">
       <p>{quizId + 1}/{quizLength}</p>
-      <img src={imageUri + data[quizId].image} alt={data[quizId].title} />
+      
+      <img src={imageUri + data[quizId].image} alt="" />
+
       <ul>
         {
           data[quizId].options.map(
