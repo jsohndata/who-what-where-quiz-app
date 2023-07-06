@@ -18,12 +18,12 @@ h1,h2,h3,p,li {
 
 a {
   color: #000000;
-} /* Added */
+}
 
 a:hover {
   color: #777;
   text-decoration: underline;
-} /* Added */
+}
 
 #main-container {
   width: 80%;
@@ -31,5 +31,5 @@ a:hover {
 }
 
 footer {
-  text-align: center; /* Added */
+  text-align: center;
 }
