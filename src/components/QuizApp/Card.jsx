@@ -1,4 +1,4 @@
-export default function Card({ data, quizId, quizLength }) {
+export default function Card({ data, quizId, quizLength, handleAnswer }) {
 
   return(
     <div className="quiz-card">
@@ -10,7 +10,8 @@ export default function Card({ data, quizId, quizLength }) {
             (element,index) => {
 
               return(
-                <li key={index}>{element.answer}</li>
+                <li key={index}
+                  onClick={ () => {handleAnswer(element.isCorrect)} }>{element.answer}</li>
               );
             }
           )
