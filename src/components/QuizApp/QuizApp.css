@@ -1,11 +1,11 @@
+h2 {
+  font-size: clamp(3.6rem, 4vw, 4.2rem);
+  text-align: center; 
+}
+
 .quiz-card {
   padding-bottom: 40px;
   z-index: 100;
-}
-
-.quiz-card h2 {
-  font-size: clamp(3.6rem, 4vw, 4.2rem);
-  text-align: center; 
 }
 
 .quiz-card figure {
@@ -24,12 +24,6 @@
   position: relative;
   left: -5px;
 }
-
-.quiz-card ul {
-  margin: 0;
-  padding: 0;
-}
-
 
 .quiz-result button,
 .quiz-card li {

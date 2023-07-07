@@ -5,7 +5,7 @@ export default function AppLayout({ children }) {
 
   return(
     <div id="main-container">
-      {/* <NavMenu /> */}
+      <NavMenu />
       {children}
       <Footer />
     </div>

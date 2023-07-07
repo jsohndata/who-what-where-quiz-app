@@ -13,7 +13,6 @@ body {
   color: rgba(255, 255, 255, 0.784);
 }
 
-
 h2 {
   font-family: 'Bungee Shade', cursive;
 }
@@ -28,7 +27,7 @@ footer {
 
 footer p,
 footer p a {
-  color: #048a748e;
+  color: rgba(5, 138, 116, 0.557);
 }
 
 a:hover {

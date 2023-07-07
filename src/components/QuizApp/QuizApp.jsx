@@ -38,19 +38,20 @@ export default function QuizApp ({ data }) {
   
   return(
     <>
-    {
-      !showResult
-        ? <Card
-            data={data}
-            quizId={quizId}
-            quizLength={quizLength}
-            handleAnswer={handleAnswer} />
+      <h2>Guess The Movie</h2>
+      {
+        !showResult
+          ? <Card
+              data={data}
+              quizId={quizId}
+              quizLength={quizLength}
+              handleAnswer={handleAnswer} />
 
-        : <Result
-            score={score}
-            quizLength={quizLength}
-            handleReset={handleReset} />
-    }
+          : <Result
+              score={score}
+              quizLength={quizLength}
+              handleReset={handleReset} />
+      }
     </>
   );
 };

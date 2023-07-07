@@ -36,7 +36,6 @@ export default function Result({score, quizLength, handleReset}) {
 
   return (
     <div className="quiz-card quiz-result">
-      <h2>Result</h2>
       <img src={`${imgUri}${resultImage}`} alt="" />
       <p>{resultMessage}
         <br/>You scored {score} out of {quizLength}! ({scorePercentage}%)</p>
