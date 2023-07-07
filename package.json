@@ -1,7 +1,7 @@
 {
-  "name": "quiz-app-c11",
+  "name": "who-what-where-quiz-app",
   "version": "0.1.0",
-  "homepage": "https://jsondata.github.io/quiz-app-c11/",
+  "homepage": "https://jsondata.github.io/who-what-where-quiz-app/",
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
