@@ -3,8 +3,9 @@
 body {
   background-image: linear-gradient(
     180deg,
-    rgb(188, 138, 234),
-    rgb(221, 241, 203)
+    rgb(2, 1, 14),
+    rgb(5, 1, 7),
+    rgb(30, 6, 48)
   );
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -13,6 +14,7 @@ body {
 
 h1,h2,h3,p,li {
   font-family: 'Heebo', sans-serif;
+  color: white;
 }
 
 
@@ -26,7 +28,7 @@ a:hover {
 }
 
 #main-container {
-  width: 80%;
+  width: min(90%, 700px);
   margin: 0 auto;
 }
 
