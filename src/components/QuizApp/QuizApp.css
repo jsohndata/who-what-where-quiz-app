@@ -1,4 +1,5 @@
 .quiz-card {
+  padding-bottom: 40px;
 }
 
 .quiz-card h2 {
@@ -6,16 +7,21 @@
   text-align: center; 
 }
 
-.quiz-card h2 span {
-  font-size: calc(1.6rem + 1vw);
+.quiz-card figure {
+  margin: 0;
+  padding: 0;
 }
 
 .quiz-card img {
   width: 100%;
   aspect-ratio: 16/9;
   object-fit: cover;
-  border-radius: 5px; 
-  border: 2px solid #0000001a; 
+  border-radius: 13px; 
+  border: 5px solid rgba(170, 244, 11, 0.231);
+  box-shadow: 0 0 40px 0 rgba(16, 202, 244, 0.37);
+  margin-bottom: 1.6rem;
+  position: relative;
+  left: -5px;
 }
 
 .quiz-card ul {
@@ -25,21 +31,36 @@
 
 .quiz-card li {
   font-size: 1.3rem;
-  background-color: #60575777;
+  background-color: rgba(96, 87, 87, 0.212);
   list-style: none;
-  margin-bottom: 5px;
+  margin-bottom: 1.0rem;
   padding: 0.7rem;
   transition: 
     font-size 0.5s ease-in-out,
     background-color 0.5s ease-in-out;
-  border-radius: 5px; 
+  border-radius: 13px; 
   border: 3px solid #0000001a; 
 }
 
 .quiz-card li:hover {
   font-size: 2.3rem;
+  box-shadow: 0 0 20px 0 rgba(184, 161, 161, 0.322);
   background-color: rgba(191, 39, 242, 0.731);
+  border: 1px solid rgba(15, 242, 193, 0.452);
   transition: 
     font-size 0.3s ease-in-out,
     background-color 0.5s ease-in-out;
+}
+
+figure {
+  position: relative;
+}
+
+figure p {
+  font-size: clamp(1.3rem, 4vw, 1.9rem);
+  font-weight: 800;
+  bottom: 15px;
+  right: 15px;
+  text-shadow: 0 0 5px rgba(24, 1, 1, 0.886);
+  position: absolute;
 }

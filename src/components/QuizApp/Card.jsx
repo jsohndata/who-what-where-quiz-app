@@ -4,9 +4,12 @@ export default function Card({ data, quizId, quizLength, handleAnswer }) {
 
   return(
     <div className="quiz-card">
-      <h2>Guess The Movie <span>({quizId + 1}/{quizLength})</span></h2>
+      <h2>Guess The Movie</h2>
       
-      <img src={imageUri + data[quizId].image} alt="" />
+      <figure>
+        <img src={imageUri + data[quizId].image} alt="" />
+        <p>{quizId + 1}/{quizLength}</p>
+      </figure>
 
       <ul>
         {
