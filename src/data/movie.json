@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "avenger.webp",
+    "image": "movie-avenger.webp",
     "options": [
       {
         "answer": "Avengers",
@@ -27,7 +27,7 @@
 
   {
     "id": 2,
-    "image": "goonies.webp",
+    "image": "movie-goonies.webp",
     "options": [
       {
         "answer": "Little Rascal",
@@ -54,7 +54,7 @@
 
 {
   "id": 3,
-  "image": "ironman.jpg",
+  "image": "movie-ironman.jpg",
   "options": [
     {
       "answer": "Miss Pot",
@@ -80,7 +80,7 @@
 
 {
   "id": 4,
-  "image": "matrix.jpg",
+  "image": "movie-matrix.jpg",
   "options": [
     {
       "answer": "Man in Black",
@@ -106,7 +106,7 @@
 
 {
   "id": 5,
-  "image": "shrek.jpg",
+  "image": "movie-shrek.jpg",
   "options": [
     {
       "answer": "Soylent Green",
