@@ -20,7 +20,7 @@ export default function Quiz() {
           options={ParticlesOptions}
           init={particlesInit} />
 
-      <h2>Guess The Travel</h2>
+      <h2>Where The...?</h2>
       <QuizApp 
         quizTitle="Guess The Travel"
         data={movieData} />

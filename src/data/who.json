@@ -1,0 +1,133 @@
+[
+  {
+    "id": 1,
+    "image": "travel-honolulu.webp",
+    "options": [
+      {
+        "answer": "Honolulu",
+        "isCorrect": true
+      },
+
+      {
+        "answer": "Costa Rica",
+        "isCorrect": false
+      },
+
+      {
+        "answer": "Miami",
+        "isCorrect": false
+      },
+
+      {
+        "answer": "Los Angeles",
+        "isCorrect": false
+      }
+    ]
+  },
+
+  {
+    "id": 2,
+    "image": "travel-rome.jpg",
+    "options": [
+      {
+        "answer": "Paris",
+        "isCorrect": false
+      },
+
+      {
+        "answer": "Berlin",
+        "isCorrect": false
+      },
+
+      {
+        "answer": "New York",
+        "isCorrect": false
+      },
+
+      {
+        "answer": "Rome",
+        "isCorrect": true
+      }
+    ]
+  },
+
+
+{
+  "id": 3,
+  "image": "travel-tokyo.jpg",
+  "options": [
+    {
+      "answer": "New Dehli",
+      "isCorrect": false
+    },
+
+    {
+      "answer": "Manhattan",
+      "isCorrect": false
+    },
+
+    {
+      "answer": "Tokyo",
+      "isCorrect": true
+    },
+
+    {
+      "answer": "Paris",
+      "isCorrect": false
+    }
+  ]
+},
+
+{
+  "id": 4,
+  "image": "travel-brazil.jpg",
+  "options": [
+    {
+      "answer": "Spain",
+      "isCorrect": false
+    },
+
+    {
+      "answer": "Isarael",
+      "isCorrect": false
+    },
+
+    {
+      "answer": "Brazil",
+      "isCorrect": true
+    },
+
+    {
+      "answer": "Mexico",
+      "isCorrect": false
+    }
+  ]
+},
+
+{
+  "id": 5,
+  "image": "travel-seoul.jpg",
+  "options": [
+    {
+      "answer": "Bangkok",
+      "isCorrect": false
+    },
+
+    {
+      "answer": "Beijing",
+      "isCorrect": false
+    },
+
+    {
+      "answer": "Seoul",
+      "isCorrect": true
+    },
+
+    {
+      "answer": "Istanbul",
+      "isCorrect": false
+    }
+  ]
+}
+
+]

@@ -6,10 +6,10 @@ import AppLayout from "../../layout/AppLayout";
 import QuizApp from "../../components/QuizApp";
 
 import ParticlesOptions from '../../data/bubble.json';
-import movieData from "../../data/movie.json";
+import movieData from "../../data/who.json";
 
 
-export default function Movie() {
+export default function Who() {
   const particlesInit = useCallback(
     main => {loadFull(main)}, []
   );
@@ -20,7 +20,7 @@ export default function Movie() {
           options={ParticlesOptions}
           init={particlesInit} />
 
-      <h2>What The...?</h2>
+      <h2>Who The...?</h2>
       <QuizApp 
         quizTitle="Guess The Movie"
         data={movieData} />
