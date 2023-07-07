@@ -2,11 +2,11 @@ import { useCallback } from 'react';
 import Particles from "react-particles";
 import { loadFull } from "tsparticles";
 
-import AppLayout from "../layout/AppLayout";
-import QuizApp from "../components/QuizApp";
+import AppLayout from "../../layout/AppLayout";
+import QuizApp from "../../components/QuizApp";
 
-import ParticlesOptions from '../data/bubble.json';
-import movieData from "../data/movie.json";
+import ParticlesOptions from '../../data/twinkle.json';
+import movieData from "../../data/travel.json";
 
 
 export default function Quiz() {
@@ -20,7 +20,10 @@ export default function Quiz() {
           options={ParticlesOptions}
           init={particlesInit} />
 
-      <QuizApp data={movieData} />
+      <h2>Guess The Travel</h2>
+      <QuizApp 
+        quizTitle="Guess The Travel"
+        data={movieData} />
     </AppLayout>
   );
 };

@@ -4,8 +4,6 @@ import Result from "./Result";
 
 import "./QuizApp.css";
 
-
-
 export default function QuizApp ({ data }) {
   const [quizId, setQuizId] = useState(0);
   const [score, setScore] = useState(0);
@@ -38,10 +36,9 @@ export default function QuizApp ({ data }) {
   
   return(
     <>
-      <h2>Guess The Movie</h2>
       {
         !showResult
-          ? <Card
+          ? <Card              
               data={data}
               quizId={quizId}
               quizLength={quizLength}

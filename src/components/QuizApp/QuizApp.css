@@ -72,8 +72,8 @@ figure {
 figure p {
   font-size: clamp(1.8rem, 4vw, 2.6rem);
   font-weight: 800;
-  bottom: 15px;
-  right: 15px;
+  bottom: 35px;
+  right: 35px;
   text-shadow: 3px 3px 6px rgba(9, 0, 0, 0.989);
   position: absolute;
 }
