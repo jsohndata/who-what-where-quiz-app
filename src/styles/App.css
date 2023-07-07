@@ -15,7 +15,9 @@ body {
 
 h2 {
   font-family: 'Bungee Shade', cursive;
-  margin-bottom: 2.1rem;
+  margin: 2.9rem;
+  font-size: clamp(3.6rem, 4vw, 4.2rem);
+  text-align: center; 
 }
 
 h3,p,li {
@@ -25,7 +27,6 @@ h3,p,li {
 nav {
   margin: 2rem;
 }
-
 
 a {
   color: #f2efef;

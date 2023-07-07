@@ -1,10 +1,5 @@
-h2 {
-  font-size: clamp(3.6rem, 4vw, 4.2rem);
-  text-align: center; 
-}
-
 .quiz-card {
-  z-index: 100;
+  margin-top: 2rem;
 }
 
 .quiz-card figure {
