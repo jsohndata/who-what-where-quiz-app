@@ -12,7 +12,7 @@ function App() {
         <Route path="/who" element={ <Who /> } />
         <Route path="/where" element={ <Travel /> } />
         <Route path="/what" element={ <Movie />} />
-        <Route path="/" element={ <Movie />} />
+        <Route path="/" element={ <Who />} />
         <Route path="*" element={ <Err404 />} />
       </Routes>
     </HashRouter>
