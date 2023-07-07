@@ -26,17 +26,9 @@ nav {
   margin: 2rem;
 }
 
-footer {
-  margin-bottom: 3rem;
-}
 
-footer p,
-footer p a {
-  color: rgba(5, 138, 116, 0.557);
-}
-
-a:hover {
-  color: #777;
+a {
+  color: #f2efef;
   text-decoration: underline;
 }
 
@@ -45,6 +37,22 @@ a:hover {
   margin: 0 auto;
 }
 
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 20px;
+}
+
 footer {
   text-align: center;
+  margin-bottom: 3rem;
+}
+
+footer p,
+footer p a {
+  color: rgba(5, 138, 116, 0.557);
 }

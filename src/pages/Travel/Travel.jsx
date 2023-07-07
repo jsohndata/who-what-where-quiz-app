@@ -5,7 +5,7 @@ import { loadFull } from "tsparticles";
 import AppLayout from "../../layout/AppLayout";
 import QuizApp from "../../components/QuizApp";
 
-import ParticlesOptions from '../../data/twinkle.json';
+import ParticlesOptions from '../../data/parallax.json';
 import movieData from "../../data/travel.json";
 
 
