@@ -1,5 +1,6 @@
 .quiz-card {
   padding-bottom: 40px;
+  z-index: 100;
 }
 
 .quiz-card h2 {
@@ -31,7 +32,7 @@
 
 .quiz-card li {
   font-size: 1.3rem;
-  background-color: rgba(96, 87, 87, 0.212);
+  background-color: rgba(26, 22, 22, 0.89);
   list-style: none;
   margin-bottom: 1.0rem;
   padding: 0.7rem;
