@@ -5,8 +5,8 @@ export default function NavMenu() {
   return (
     <nav>
       <ul>
-        <li><Link to="/quiz-app-c11/movie">Movie</Link></li>
-        <li><Link to="/quiz-app-c11/travel">Travel</Link></li>
+        <li><Link to="/movie">Movie</Link></li>
+        <li><Link to="/travel">Travel</Link></li>
       </ul>
     </nav>
   );
