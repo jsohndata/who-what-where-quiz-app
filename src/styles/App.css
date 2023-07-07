@@ -15,10 +15,15 @@ body {
 
 h2 {
   font-family: 'Bungee Shade', cursive;
+  margin-bottom: 2.1rem;
 }
 
 h3,p,li {
   font-family: 'Heebo', sans-serif;
+}
+
+nav {
+  margin: 2rem;
 }
 
 footer {
