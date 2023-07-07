@@ -1,15 +1,17 @@
 import { useState } from "react";
 import Card from "./Card";
 import Result from "./Result";
-import data from "../../data/movie.json";
+
 import "./QuizApp.css";
 
-const quizLength = data.length;
 
-export default function QuizApp () {
+
+export default function QuizApp ({ data }) {
   const [quizId, setQuizId] = useState(0);
   const [score, setScore] = useState(0);
   const [showResult, setShowResult] = useState(false);
+
+  const quizLength = data.length;
 
   const handleAnswer = (isCorrect) => {
     
