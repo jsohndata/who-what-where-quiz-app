@@ -27,25 +27,25 @@
 
   {
     "id": 2,
-    "image": "movie-goonies.webp",
+    "image": "travel-rome.jpg",
     "options": [
       {
-        "answer": "Little Rascal",
+        "answer": "Paris",
         "isCorrect": false
       },
 
       {
-        "answer": "Sandlot",
+        "answer": "Berlin",
         "isCorrect": false
       },
 
       {
-        "answer": "Kujo",
+        "answer": "New York",
         "isCorrect": false
       },
 
       {
-        "answer": "Goonies",
+        "answer": "Rome",
         "isCorrect": true
       }
     ]
@@ -54,25 +54,25 @@
 
 {
   "id": 3,
-  "image": "movie-ironman.jpg",
+  "image": "travel-tokyo.jpg",
   "options": [
     {
-      "answer": "Miss Pot",
+      "answer": "New Dehli",
       "isCorrect": false
     },
 
     {
-      "answer": "Happy",
+      "answer": "Manhattan",
       "isCorrect": false
     },
 
     {
-      "answer": "IronMan",
+      "answer": "Tokyo",
       "isCorrect": true
     },
 
     {
-      "answer": "Tropic Thunder",
+      "answer": "Paris",
       "isCorrect": false
     }
   ]
@@ -80,25 +80,25 @@
 
 {
   "id": 4,
-  "image": "movie-matrix.jpg",
+  "image": "travel-brazil.jpg",
   "options": [
     {
-      "answer": "Man in Black",
+      "answer": "Spain",
       "isCorrect": false
     },
 
     {
-      "answer": "Bourne Identity",
+      "answer": "Isarael",
       "isCorrect": false
     },
 
     {
-      "answer": "Matrix",
+      "answer": "Brazil",
       "isCorrect": true
     },
 
     {
-      "answer": "Speed",
+      "answer": "Mexico",
       "isCorrect": false
     }
   ]
@@ -106,25 +106,25 @@
 
 {
   "id": 5,
-  "image": "movie-shrek.jpg",
+  "image": "travel-seoul.jpg",
   "options": [
     {
-      "answer": "Soylent Green",
+      "answer": "Bangkok",
       "isCorrect": false
     },
 
     {
-      "answer": "Green Giant",
+      "answer": "Beijing",
       "isCorrect": false
     },
 
     {
-      "answer": "Shrek",
+      "answer": "Seoul",
       "isCorrect": true
     },
 
     {
-      "answer": "The Big Green",
+      "answer": "Istanbul",
       "isCorrect": false
     }
   ]
