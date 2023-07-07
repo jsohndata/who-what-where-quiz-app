@@ -30,6 +30,8 @@
   padding: 0;
 }
 
+
+.quiz-result button,
 .quiz-card li {
   font-size: 1.3rem;
   background-color: rgba(26, 22, 22, 0.89);
@@ -43,6 +45,7 @@
   border: 3px solid #0000001a; 
 }
 
+.quiz-result button:hover,
 .quiz-card li:hover {
   font-size: 2.3rem;
   box-shadow: 0 0 20px 0 rgba(184, 161, 161, 0.322);
@@ -51,6 +54,20 @@
   transition: 
     font-size 0.3s ease-in-out,
     background-color 0.5s ease-in-out;
+}
+
+.quiz-result button {
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  display: block;
+  background-color: rgba(216, 112, 14, 0.89);
+}
+
+.quiz-result p {
+  font-size: 2.3rem;
+  text-align: center;
 }
 
 figure {
