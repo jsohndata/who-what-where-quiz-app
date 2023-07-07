@@ -5,8 +5,8 @@ import { loadFull } from "tsparticles";
 import AppLayout from "../../layout/AppLayout";
 import QuizApp from "../../components/QuizApp";
 
-import ParticlesOptions from '../../data/bubble.json';
-import movieData from "../../data/who.json";
+import ParticlesOptions from '../../data/tunnel.json';
+import movieData from "../../data/quiz-who.json";
 
 
 export default function Who() {

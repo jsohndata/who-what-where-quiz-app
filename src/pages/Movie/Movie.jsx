@@ -6,7 +6,7 @@ import AppLayout from "../../layout/AppLayout";
 import QuizApp from "../../components/QuizApp";
 
 import ParticlesOptions from '../../data/bubble.json';
-import movieData from "../../data/movie.json";
+import movieData from "../../data/quiz-movie.json";
 
 
 export default function Movie() {

@@ -1,25 +1,25 @@
 [
   {
     "id": 1,
-    "image": "travel-honolulu.webp",
+    "image": "who-picasso.webp",
     "options": [
       {
-        "answer": "Honolulu",
+        "answer": "Pablo Picasso",
         "isCorrect": true
       },
 
       {
-        "answer": "Costa Rica",
+        "answer": "Ben Kingsly",
         "isCorrect": false
       },
 
       {
-        "answer": "Miami",
+        "answer": "Patrick Stewart",
         "isCorrect": false
       },
 
       {
-        "answer": "Los Angeles",
+        "answer": "El Salvador Dali",
         "isCorrect": false
       }
     ]
@@ -27,25 +27,25 @@
 
   {
     "id": 2,
-    "image": "travel-rome.jpg",
+    "image": "who-descartes.jpg",
     "options": [
       {
-        "answer": "Paris",
+        "answer": "Rambrant",
         "isCorrect": false
       },
 
       {
-        "answer": "Berlin",
+        "answer": "Michelangelo",
         "isCorrect": false
       },
 
       {
-        "answer": "New York",
+        "answer": "Leonardo Da Vinci",
         "isCorrect": false
       },
 
       {
-        "answer": "Rome",
+        "answer": "Rene Descartes",
         "isCorrect": true
       }
     ]
@@ -54,25 +54,25 @@
 
 {
   "id": 3,
-  "image": "travel-tokyo.jpg",
+  "image": "who-lovelace.webp",
   "options": [
     {
-      "answer": "New Dehli",
+      "answer": "Margaret Thatcher",
       "isCorrect": false
     },
 
     {
-      "answer": "Manhattan",
+      "answer": "Queen Victoria",
       "isCorrect": false
     },
 
     {
-      "answer": "Tokyo",
+      "answer": "Ada Lovelace",
       "isCorrect": true
     },
 
     {
-      "answer": "Paris",
+      "answer": "Mona Lisa",
       "isCorrect": false
     }
   ]
@@ -80,25 +80,25 @@
 
 {
   "id": 4,
-  "image": "travel-brazil.jpg",
+  "image": "who-brucelee.webp",
   "options": [
     {
-      "answer": "Spain",
+      "answer": "Chao Yun Fat",
       "isCorrect": false
     },
 
     {
-      "answer": "Isarael",
+      "answer": "Jet Li",
       "isCorrect": false
     },
 
     {
-      "answer": "Brazil",
+      "answer": "Bruce Lee",
       "isCorrect": true
     },
 
     {
-      "answer": "Mexico",
+      "answer": "Mao Zedong",
       "isCorrect": false
     }
   ]
@@ -106,25 +106,25 @@
 
 {
   "id": 5,
-  "image": "travel-seoul.jpg",
+  "image": "who-earhart.jpg",
   "options": [
     {
-      "answer": "Bangkok",
+      "answer": "Lady of Shalott",
       "isCorrect": false
     },
 
     {
-      "answer": "Beijing",
+      "answer": "Hellen Keller",
       "isCorrect": false
     },
 
     {
-      "answer": "Seoul",
+      "answer": "Amelia Earhart",
       "isCorrect": true
     },
 
     {
-      "answer": "Istanbul",
+      "answer": "Elizabeth I",
       "isCorrect": false
     }
   ]

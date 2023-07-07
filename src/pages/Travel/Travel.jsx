@@ -6,7 +6,7 @@ import AppLayout from "../../layout/AppLayout";
 import QuizApp from "../../components/QuizApp";
 
 import ParticlesOptions from '../../data/parallax.json';
-import movieData from "../../data/travel.json";
+import movieData from "../../data/quiz-travel.json";
 
 
 export default function Quiz() {
