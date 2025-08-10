@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/who-what-where-quiz-app/static/css/main.829f599f.css",
-    "main.js": "/who-what-where-quiz-app/static/js/main.63e2b328.js",
+    "main.js": "/who-what-where-quiz-app/static/js/main.c4ac35e5.js",
     "index.html": "/who-what-where-quiz-app/index.html",
     "main.829f599f.css.map": "/who-what-where-quiz-app/static/css/main.829f599f.css.map",
-    "main.63e2b328.js.map": "/who-what-where-quiz-app/static/js/main.63e2b328.js.map"
+    "main.c4ac35e5.js.map": "/who-what-where-quiz-app/static/js/main.c4ac35e5.js.map"
   },
   "entrypoints": [
     "static/css/main.829f599f.css",
-    "static/js/main.63e2b328.js"
+    "static/js/main.c4ac35e5.js"
   ]
 }
