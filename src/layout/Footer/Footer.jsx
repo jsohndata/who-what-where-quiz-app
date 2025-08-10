@@ -10,8 +10,7 @@ export default function Footer () {
         <a href={gitHubUrl} target="_blank" rel="noreferrer">See Code in Github</a>
       </p>
 
-      <p id="mozarts-ghost"><a href="https://jsohndata.github.io/no-tiempo/mozartsghost?id=wquiz"
-        rel="noreferrer"
+      <p id="mozarts-ghost"><a href="https://mozartsghost.band/rock?on=w-quiz"
         alt="Click on it and press control-shift."
         title="Click on it and press control-shift.">π</a></p>
     </footer>
